@@ -6,13 +6,13 @@
 #    By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/09 14:36:18 by cniranye          #+#    #+#              #
-#    Updated: 2019/09/26 21:25:51 by cniranye         ###   ########.fr        #
+#    Updated: 2019/09/26 22:11:29 by cniranye         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libft.a
-CC = gcc 
-FLAGS = -Wall -Wextra -Werror
+NAME 	= 	libft.a
+CC 		= 	gcc 
+FLAGS 	= 	-Wall -Wextra -Werror
 
 SRC_F	=	ft_atoi.c ft_bzero.c\
 			ft_isalnum.c ft_isalpha.c\

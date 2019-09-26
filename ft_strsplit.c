@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsplit.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cniranye <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/24 10:58:18 by cniranye          #+#    #+#             */
-/*   Updated: 2019/09/24 14:53:15 by cniranye         ###   ########.fr       */
+/*   Updated: 2019/09/26 21:57:32 by cniranye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,9 @@
 
 static int	ft_len_char(char const *str, char c)
 {
-	int i;
 	int flag;
 	int count;
 
-	i = 0;
 	flag = 0;
 	count = 0;
 	while (*str)
@@ -27,8 +25,8 @@ static int	ft_len_char(char const *str, char c)
 		{
 			count++;
 		}
-		flag = (str[i] == c) ? 0 : 1;
-		str++;
+		flag = (*str == c) ? 0 : 1;
+		++str;
 	}
 	return (count);
 }
