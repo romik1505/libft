@@ -6,7 +6,7 @@
 /*   By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/24 10:58:18 by cniranye          #+#    #+#             */
-/*   Updated: 2019/09/26 21:57:32 by cniranye         ###   ########.fr       */
+/*   Updated: 2019/09/27 00:38:04 by cniranye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ static int	ft_len_char(char const *str, char c)
 	return (count);
 }
 
-char		**ft_strsplit(char const *s, char c)
+char	**ft_strsplit(char const *s, char c)
 {
 	char	**tmp;
 	size_t	flag;

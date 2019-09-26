@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cniranye <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/24 10:58:54 by cniranye          #+#    #+#             */
-/*   Updated: 2019/09/24 16:11:49 by cniranye         ###   ########.fr       */
+/*   Updated: 2019/09/27 00:12:11 by cniranye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ static int	ft_iswhitespace(int c)
 
 char		*ft_strtrim(char const *s)
 {
-	unsigned int	start;
-	unsigned int	end;
+	size_t	start;
+	size_t	end;
 
 	start = 0;
 	if (s)

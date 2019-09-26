@@ -6,7 +6,7 @@
 /*   By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/26 11:32:02 by cniranye          #+#    #+#             */
-/*   Updated: 2019/09/26 20:59:34 by cniranye         ###   ########.fr       */
+/*   Updated: 2019/09/27 00:20:13 by cniranye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 char	*ft_strrev(char *str)
 {
-	int		i;
-	int		len;
-	char	buff;
+	size_t		i;
+	size_t		len;
+	char		buff;
 
 	len = ft_strlen(str);
-	len -= 1;
+	len = len == 0 ? len : --len;
 	i = 0;
 	while (i < len)
 	{

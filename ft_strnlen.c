@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnlen.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cniranye <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/21 14:22:47 by cniranye          #+#    #+#             */
-/*   Updated: 2019/09/24 20:56:53 by cniranye         ###   ########.fr       */
+/*   Updated: 2019/09/27 00:03:44 by cniranye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@ size_t		ft_strnlen(const char *s, size_t maxlen)
 	i = 0;
 	if (s)
 		i = ft_strlen(s);
-	if (maxlen + 1 == 0)
-		return (i);
 	i > maxlen ? (i = maxlen) : i;
 	return (i);
 }

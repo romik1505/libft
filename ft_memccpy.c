@@ -6,7 +6,7 @@
 /*   By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/21 13:35:06 by cniranye          #+#    #+#             */
-/*   Updated: 2019/09/26 21:37:38 by cniranye         ###   ########.fr       */
+/*   Updated: 2019/09/27 00:01:05 by cniranye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ void	*ft_memccpy(void *src, const void *str, int c, size_t num)
 	unsigned char	*ptr_src;
 	unsigned char	*ptr_str;
 
-	if (num + 1 == 0)
-		return (0);
 	ptr_src = (unsigned char*)src;
 	ptr_str = (unsigned char*)str;
 	i = 0;

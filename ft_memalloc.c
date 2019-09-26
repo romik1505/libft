@@ -6,7 +6,7 @@
 /*   By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/21 22:14:16 by cniranye          #+#    #+#             */
-/*   Updated: 2019/09/26 21:36:58 by cniranye         ###   ########.fr       */
+/*   Updated: 2019/09/27 00:01:12 by cniranye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	*ft_memalloc(size_t size)
 {
 	void *mem;
 
-	if (!(size + 1) || !size)
+	if (!size)
 		return (0);
 	if (!(mem = malloc(size)))
 		return (NULL);

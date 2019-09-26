@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cniranye <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/22 17:54:24 by cniranye          #+#    #+#             */
-/*   Updated: 2019/09/24 14:28:56 by cniranye         ###   ########.fr       */
+/*   Updated: 2019/09/27 00:15:02 by cniranye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strmap(char const *s, char (*f)(char))
 {
-	size_t			size;
-	unsigned int	i;
-	char			*map;
+	size_t	size;
+	size_t	i;
+	char	*map;
 
 	map = 0;
 	if (s)

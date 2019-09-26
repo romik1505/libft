@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cniranye <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/21 13:36:56 by cniranye          #+#    #+#             */
-/*   Updated: 2019/09/24 14:28:15 by cniranye         ###   ########.fr       */
+/*   Updated: 2019/09/27 00:13:43 by cniranye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strchr(const char *str, int c)
 {
-	int i;
+	size_t i;
 
 	i = 0;
 	while (str[i] || c == 0)

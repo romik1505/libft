@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cniranye <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/21 13:38:54 by cniranye          #+#    #+#             */
-/*   Updated: 2019/09/24 14:30:20 by cniranye         ###   ########.fr       */
+/*   Updated: 2019/09/27 00:20:47 by cniranye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strstr(const char *str, const char *to_find)
 {
-	int i;
-	int j;
-	int lenght;
+	size_t	i;
+	size_t	j;
+	size_t	lenght;
 
 	i = 0;
 	if (!*to_find)
