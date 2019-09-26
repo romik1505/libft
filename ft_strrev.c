@@ -3,20 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrev.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cniranye <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/26 11:32:02 by cniranye          #+#    #+#             */
-/*   Updated: 2019/09/26 12:45:55 by cniranye         ###   ########.fr       */
+/*   Updated: 2019/09/26 20:59:34 by cniranye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char    *ft_strrev(char *str)
+char	*ft_strrev(char *str)
 {
-	int i;
-	int len;
-	char buff;
+	int		i;
+	int		len;
+	char	buff;
 
 	len = ft_strlen(str);
 	len -= 1;
