@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: cniranye <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/09 14:36:18 by cniranye          #+#    #+#              #
-#    Updated: 2019/09/26 11:36:37 by cniranye         ###   ########.fr        #
+#    Updated: 2019/09/26 21:25:51 by cniranye         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -48,7 +48,7 @@ SRC_F	+= 	ft_lstadd.c ft_lstdel.c\
 
 SRC_F	+= 	ft_strnlen.c ft_isspace.c\
 			ft_itoa_base.c ft_putll_base_fd.c\
-			ft_strrev.c
+			ft_strrev.c ft_intlen_base.c
 
 OBJS	= 	$(SRC_F:%.c=%.o)
 

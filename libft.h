@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cniranye <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/05 19:31:13 by cniranye          #+#    #+#             */
-/*   Updated: 2019/09/26 11:37:07 by cniranye         ###   ########.fr       */
+/*   Updated: 2019/09/26 21:25:35 by cniranye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,4 +92,5 @@ int					ft_isspace(int c);
 char				*ft_itoa_base(int n, int base);
 void				ft_putll_base_fd(long long nb, int fd, int base);
 char				*ft_strrev(char *str);
+int					ft_intlen_base(int c, int length, int base);
 #endif

@@ -3,24 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa_base.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cniranye <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cniranye <cniranye@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/21 22:22:44 by cniranye          #+#    #+#             */
-/*   Updated: 2019/09/24 14:53:27 by cniranye         ###   ########.fr       */
+/*   Updated: 2019/09/26 21:23:26 by cniranye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-static int	ft_intlen_base(int c, int length, int base)
-{
-	while (c)
-	{
-		c /= base;
-		length++;
-	}
-	return (length);
-}
 
 char		*ft_itoa_base(int n, int base)
 {
